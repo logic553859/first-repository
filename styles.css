@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+
+
+}
+
+/* header section styles */
+.header-section {
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 700px;
+}
+
+.header-section h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.header-section p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.header-section-btn {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: #ffff;
+
+
+
+}
+
+/* banner styles */
+.banner {
+    padding: 180px 100px 0 0;
+    text-align: right;
+
+
+
+}
+
+/* failure section styles */
+
+.failure-section {
+    display: flex;
+    margin-top: 100px;
+    gap: 60px;
+}
+
+.failure h2 {
+    padding-top: 150px;
+
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.failure-section-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failure-section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #444343;
+}
+
+.failure-section-description p {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: #7fff00;
+}
+
+.all-years {
+    padding-bottom: 5px;
+}
+
+/* plans section styles */
+.plans-section {
+    margin-top: 100px;
+}
+
+
+.plans-section-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.all-plans {
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.plan-section-subtitle {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.what-i-want {
+    font-weight: 400;
+    font-size: 18px;
+    color: #444343;
+}
+
+/* Bonuse section styles */
+.Bonuse-section {
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)), url(images/watch.png);
+    background-blend-mode: multiply;
+    border: none;
+    border-radius: 5px;
+}
+
+.Bonuse {
+    margin-left: 36px;
+}
+
+.Bonuse-section h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffff;
+    padding-top: 36px;
+
+}
+
+.Bonuse-section-btn {
+    height: 45px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffff;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* footer section stylea */
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+}
+
+.footer-section {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 200px;
+
+
+
+}
+
+/* future area */
+
+.future-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #F8F8F8;
+}
+
+.future-description,
+.future-email,
+.future-ph {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.future-email {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.future-img {
+    display: flex;
+    width: 20%;
+    gap: 12px;
+    padding-top: 10px;
+}
+
+/* subscribe area */
+
+
+.subscribe-title {
+    color: #FFFFFF;
+}
+
+.subscribe-area input[type="email"] {
+    padding: 10px 20px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: black;
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+
+}
+
+.subscribe-btn {
+    height: 45px;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffff;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 18px;
+}
